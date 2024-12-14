@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Forms2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<center>
+<table border="5">
+<tr>
+<td><label>First Name:</label></td>
+<td><input type="text" name="fna" placeholder="First Name" required autofocus></td>
+</tr>
+<tr>
+<td><label>Last Name:</label></td>
+<td><input type="text" name="lna" placeholder="last Name" required autofocus></td>
+</tr>
+<tr>
+<td><label>Email</label></td>
+<td>
+Email:<input type="email">
+</td>
+</tr>
+<tr>
+<td><label>Fee:</label></td>
+<td>
+<input type="radio" value="cash" name="fees" checked>Cash<br>
+<input type="radio" value="cheque" name="fees" checked>Cheque<br>
+<input type="radio" value="dd" name="fees" checked>DD<br><br>
+</td>
+</tr>
+<tr>
+<td><label>Place:</label></td>
+<td>
+<select name:"apl">
+<option value="ongole">ONGOLE</option><br>
+<option value="nellore">NELLORE</option><br>
+<option value="guntur">GUNTUR</option><br>
+<option value="Tripathi">TIRUPATHI</option><br>
+<option value="gudur">GUDUR</option><br>
+<option value="Vijayawada">VIJAYAWADA</option><br>
+</select>
+</td>
+</tr>
+<tr>
+<td><label>Basic Qualification:</label></td>
+<td>
+<select multiple name="bq">
+<option value="ssc">SSC</option>
+<option value="inter">INTER</option>
+<option value="degree">DEGREE</option>
+<option value="pg">PG</option>
+<option value="diploma">DIPLOMA</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label>ADDRESS:</label></td>
+<td><textarea name="adr">
+</textarea></td></tr>
+<th><input type="submit" value="Submit"></th>
+<th><input type="reset" value="Reset" onlick="reset()"></th>
+</table>
+</center>
+</body>
+</html>
+
+
